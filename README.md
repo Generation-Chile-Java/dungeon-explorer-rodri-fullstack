@@ -63,3 +63,57 @@ Paso 4: Crear la clase principal del juego
   - Asegúrate de manejar adecuadamente las interacciones entre el jugador y los diferentes tipos de salas.
   - Considera agregar más salas y enemigos para hacer el juego más interesante.
   - Puedes implementar características adicionales como la posibilidad de que el jugador use objetos del inventario.
+    
+---
+
+# 🕹️ Stranger Things: Dungeon Game (Java POO)
+
+Un juego de exploración de mazmorras basado en el universo de **Stranger Things**, implementado en Java utilizando los cuatro pilares de la **Programación Orientada a Objetos**: **encapsulación, herencia, polimorfismo y abstracción**.
+
+---
+
+## 🎯 Objetivo
+
+Explora el Upside Down como **Eleven**, enfrenta criaturas como el **Demogorgon** y **Vecna**, recoge objetos con poderes especiales y sobrevive al misterio.
+
+---
+
+## 🧩 Características principales
+
+- ✔️ Sistema de salas: vacías, con tesoros o enemigos.
+- ✔️ Enemigos con daño personalizado.
+- ✔️ Objetos coleccionables en inventario.
+- ✔️ Finalización por victoria o derrota.
+- ✔️ Implementación de OOP pura.
+
+---
+
+## 🧱 Estructura OOP
+
+| Pilar         | Implementación                                                                 |
+|---------------|----------------------------------------------------------------------------------|
+| **Abstracción**  | Interfaces `Room` y `GameObject` definen contratos generales.                   |
+| **Encapsulación**| Clase `Player` con atributos privados y métodos públicos (`takeDamage()`, etc).|
+| **Herencia**     | `EnemyRoom`, `TreasureRoom`, `EmptyRoom` implementan la interfaz `Room`.        |
+| **Polimorfismo** | Uso de referencias `Room` y `GameObject` para manejar clases concretas.        |
+
+---
+
+## 🧙‍♀️ Personajes y objetos
+
+- 👧 **Jugador**: Eleven
+- 🕷️ **Enemigos**: Demogorgon, Vecna
+- 💎 **Objetos**:
+  - Linterna Psíquica
+  - Walkman con música de Kate Bush
+
+---
+
+## ▶️ Cómo ejecutar
+
+Compila y ejecuta con:
+
+```bash
+javac DungeonGame.java
+java DungeonGame
+
